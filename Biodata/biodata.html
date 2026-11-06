@@ -1,88 +1,150 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portofolio dan biodata Muhammad Mecky Haidar, mahasiswa Sistem Informasi Universitas Kuningan.">
-    <meta name="author" content="Muhammad Mecky Haidar">
-    <title>Biodata Diri - Muhammad Mecky Haidar</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="description" content="Portofolio dan biodata Muhammad Mecky Haidar, mahasiswa Sistem Informasi Universitas Kuningan.">
+        <meta name="author" content="Muhammad Mecky Haidar">
+        <title>Muhammad Mecky Haidar</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
 
-    <!-- Header / Judul Utama -->
-    <header>
-        <h1>Selamat Datang di Portofolio Saya</h1>
-        <p>Saya seorang mahasiswa yang sedang menempuh pendidikan di Universitas Kuningan.</p>
-        <nav aria-label="Navigasi utama">
-            <ul>
-                <li><a href="#biodata">Biodata</a></li>
-                <li><a href="#pendidikan">Pendidikan</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#atas">Mecky Haidar</a>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kuliah">Kuliah</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</div>
 
-    <hr>
+<main id="atas">
+  <section class="hero" aria-labelledby="judul-utama">
+    <div class="wrap">
+      <div>
+        <h1 id="judul-utama"><span>Muhammad</span><span class="hl">Mecky</span><span>Haidar</span></h1>
+        <p class="lead">Mahasiswa Sistem Informasi semester 3 di Universitas Kuningan. Saya belajar merancang sistem informasi dan membangun aplikasi dengan pemrograman berorientasi objek.</p>
+        <div class="cta">
+          <a class="btn primary" href="#kontak">Hubungi saya</a>
+          <a class="btn ghost" href="#proyek">Lihat proyek</a>
+        </div>
+      </div>
 
-    <main>
-        <!-- Profil Utama -->
-        <section id="biodata" aria-labelledby="judul-biodata">
-            <h2 id="judul-biodata">Biodata Diri</h2>
-            <figure>
-                <img src="https://via.placeholder.com/150" alt="Foto profil Muhammad Mecky Haidar" width="150" height="150" loading="lazy">
-                <figcaption>Muhammad Mecky Haidar</figcaption>
-            </figure>
-            <dl>
-                <dt>Nama</dt>
-                <dd>Muhammad Mecky Haidar</dd>
-                <dt>NIM</dt>
-                <dd>20250910042</dd>
-                <dt>Program Studi</dt>
-                <dd>Sistem Informasi</dd>
-                <dt>Fakultas</dt>
-                <dd>Fakultas Ilmu Komputer</dd>
-            </dl>
-        </section>
+      <aside class="idcard" aria-label="Kartu identitas singkat">
+        <header><span>Universitas Kuningan</span><span>Fakultas Ilmu Komputer</span></header>
+        <div class="row">
+          <img src="Mecky.png" alt="Foto Muhammad Mecky Haidar"> -->
+          <div class="avatar" aria-hidden="true">MH</div>
+          <div>
+            <div class="name">Muhammad Mecky Haidar</div>
+            <div class="sub">Sistem Informasi</div>
+          </div>
+        </div>
+        <dl>
+          <dt>NIM</dt><dd>20250910042</dd>
+          <dt>Semester</dt><dd>3</dd>
+          <dt>Asal</dt><dd>Kuningan, Jawa Barat</dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
 
-        <hr>
+  <section class="block" id="tentang" aria-labelledby="judul-tentang">
+    <div class="wrap two">
+      <div>
+        <h2 id="judul-tentang">Tentang saya</h2>
+        <p>Saya kuliah di Program Studi Sistem Informasi, Fakultas Ilmu Komputer, Universitas Kuningan. Di kelas saya mempelajari bagaimana data dan proses bisnis diubah menjadi sistem yang bisa dipakai orang.</p>
+        <p>Halaman ini adalah biodata sekaligus portofolio awal saya. Isinya akan bertambah seiring tugas dan proyek yang saya selesaikan.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>Program studi</b><span>Sistem Informasi</span></div>
+        <div class="fact"><b>Fokus belajar</b><span>Manajemen sistem informasi dan pemrograman berorientasi objek</span></div>
+        <div class="fact"><b>Bahasa</b><span>Bahasa Indonesia, dan bahasa Inggris untuk tugas tertentu</span></div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Pendidikan -->
-        <section id="pendidikan" aria-labelledby="judul-pendidikan">
-            <h2 id="judul-pendidikan">Riwayat Pendidikan</h2>
-            <table border="1" cellpadding="6">
-                <caption>Daftar riwayat pendidikan</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">No</th>
-                        <th scope="col">Jenjang</th>
-                        <th scope="col">Institusi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>1</td><td>SD</td><td>SDN Sadamantra</td></tr>
-                    <tr><td>2</td><td>SMP</td><td>SMP Negeri 1 Jalaksana</td></tr>
-                    <tr><td>3</td><td>SMA</td><td>SMA Negeri 1 Jalaksana</td></tr>
-                    <tr><td>4</td><td>Perguruan Tinggi</td><td>Universitas Kuningan</td></tr>
-                </tbody>
-            </table>
-        </section>
+  <section class="block" id="kuliah" aria-labelledby="judul-kuliah">
+    <div class="wrap">
+      <h2 id="judul-kuliah">Yang sedang saya pelajari</h2>
+      <div class="courses">
+        <article class="course">
+          <h3>Pemograman Dasar</h3>
+          <p>Pemrograman Dasar adalah mata kuliah pengantar di bidang ilmu komputer atau teknik informatika yang mempelajari konsep-konsep fundamental cara merancang, menulis, menguji, dan memelihara sebuah program komputer.</p>
+        </article>
+        <article class="course">
+          <h3>Statistika Data</h3>
+          <p> statistika data adalah cabang ilmu matematika dan analitik yang mempelajari bagaimana cara mengumpulkan, mengolah, menganalisis, menyajikan, dan menarik kesimpulan dari data berbentuk angka maupun informasi numerik.</p>
+        </article>
+        <article class="course">
+          <h3>Web Design</h3>
+          <p>Web Design (desain web) adalah proses merancang tampilan, tata letak (layout), aspek visual, dan pengalaman pengguna (user experience) dari sebuah situs web yang dapat diakses melalui internet.</p>
+        </article>
+        <article class="course">
+          <h3>Analisis Perancangan Sistem Informasi</h3>
+          <p>Analisis dan Perancangan Sistem Informasi (APSI) adalah proses sistematis untuk mengkaji, mengevaluasi, mendefinisikan kebutuhan, dan merancang sebuah sistem informasi baru (atau memperbaiki sistem yang sudah ada) agar dapat menyelesaikan masalah organisasi atau kebutuhan bisnis secara efektif dan efisien.</p>
+        </article>
+      </div>
+      <ul class="tags" aria-label="Teknologi yang saya pakai">
+        <li>Netbeans</li><li>RStudio</li><li>Visual Studio Code</li><li>Visual Paradigma</li>
+      </ul>
+    </div>
+  </section>
 
-        <hr>
+  <section class="block" id="pendidikan" aria-labelledby="judul-pendidikan">
+    <div class="wrap two">
+      <h2 id="judul-pendidikan">Riwayat pendidikan</h2>
+      <ol class="timeline">
+        <li><strong>SDN Sadamantra</strong><small>Sekolah Dasar</small></li>
+        <li><strong>SMP Negeri 1 Jalaksana</strong><small>Sekolah Menengah Pertama</small></li>
+        <li><strong>SMA Negeri 1 Jalaksana</strong><small>Sekolah Menengah Atas</small></li>
+        <li class="now"><strong>Universitas Kuningan</strong><small>Sistem Informasi, sedang berjalan</small></li>
+      </ol>
+    </div>
+  </section>
 
-        <!-- Kontak -->
-        <section id="kontak" aria-labelledby="judul-kontak">
-            <h2 id="judul-kontak">Kontak</h2>
-            <address>
-                Email: <a href="mailto:meckyhaidar002@gmail.com">meckyhaidar002@gmail.com</a>
-            </address>
-        </section>
-    </main>
+  <section class="block" id="proyek" aria-labelledby="judul-proyek">
+    <div class="wrap">
+      <h2 id="judul-proyek">Proyek</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Laporan Kelompok 4: Joss Laundry</h3>
+          <p>Laporan kelompok untuk mata kuliah Manajemen Sistem Informasi tentang usaha Joss Laundry.</p>
+          <span class="meta">Tugas kuliah</span>
+        </article>
+        <article class="project">
+          <h3>Halaman portofolio ini</h3>
+          <p>Landing page biodata yang saya bangun dengan HTML5 dan CSS, responsif di ponsel dan punya mode gelap.</p>
+          <span class="meta">Proyek pribadi</span>
+        </article>
+      </div>
+    </div>
+  </section>
 
-    <hr>
+  <div class="wrap">
+    <section class="contact" id="kontak" aria-labelledby="judul-kontak">
+      <h2 id="judul-kontak">Ayo terhubung</h2>
+      <p>Punya pertanyaan, ajakan kerja sama, atau ingin berdiskusi soal tugas? Kirim email, saya akan membalasnya.</p>
+      <a class="mail" id="email" href="mailto:meckyhaidar002@gmail.com">meckyhaidar002@gmail.com</a>
+      
+    </section>
+  </div>
+</main>
 
-    <footer>
-        <p>&copy; 2026 Muhammad Mecky Haidar. Dibuat dengan HTML5.</p>
-    </footer>
+
+<footer>
+  <div class="wrap">&copy; 2026 Muhammad Mecky Haidar. Dibuat dengan HTML5 dan CSS3.</div>
+</footer>
 
 </body>
 </html>
